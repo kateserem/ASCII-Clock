@@ -1,0 +1,415 @@
+def num_0(character): #function to gather correct format for number 0
+  space = " "
+  list_0 = ['***', '* *', '* *', '* *', '***'] #LIST FOR NUMBER 1
+
+  modified_list = []
+  for i in range(len(list_0)): #essentially, this is an algorithm to replace the astrics w the wanted character
+      modified_string = ""
+      for j in list_0[i]: #for every character 
+          if j == '*': #if it is an astric then...
+              modified_string += character #add the wanted character to modified string
+          else: #if it is a space thenn...
+              modified_string += space #add a space to modified string
+
+
+      modified_list.append(modified_string) #lastly, add the modified string, to the modified list (thne return it back)
+
+  return modified_list
+
+def num_1(character):#function to gather correct format for number 1
+  space = " "
+  list_1 = [' * ', '** ', ' * ', ' * ', '***'] #LIST FOR NUMBER 1
+
+  modified_list = []
+  for i in range(len(list_1)): #essentially, this is an algorithm to replace the astrics w the wanted character
+      modified_string = ""
+      for j in list_1[i]: #for every character 
+          if j == '*': #if it is an astric then...
+              modified_string += character #add the wanted character to modified string
+          else: #if it is a space thenn...
+              modified_string += space #add a space to modified string
+
+
+      modified_list.append(modified_string) #lastly, add the modified string, to the modified list (thne return it back)
+
+  return modified_list
+
+
+def num_2(character):#function to gather correct format for number 2
+  space = " "
+  list_2 = ['***', '  *', '***', '*  ', '***']
+
+  modified_list = []
+  for i in range(len(list_2)):
+      modified_string = ""
+      for j in list_2[i]:
+          if j == '*':
+              modified_string += character
+          else:
+              modified_string += space
+      modified_list.append(modified_string)
+
+  return modified_list
+
+def num_3(character):#function to gather correct format for number 3
+  space = " "
+  list_3 = ['***', '  *', '***', '  *', '***']
+
+  modified_list = []
+  for i in range(len(list_3)):
+      modified_string = ""
+      for j in list_3[i]:
+          if j == '*':
+              modified_string += character
+          else:
+              modified_string += space
+      modified_list.append(modified_string)
+
+  return modified_list
+
+def num_4(character):#function to gather correct format for number 4
+  space = " "
+  list_4 = ['* *', '* *', '***', '  *', '  *'] #LIST FOR NUMBER 1
+
+  modified_list = []
+  for i in range(len(list_4)): #essentially, this is an algorithm to replace the astrics w the wanted character
+      modified_string = ""
+      for j in list_4[i]: #for every character 
+          if j == '*': #if it is an astric then...
+              modified_string += character #add the wanted character to modified string
+          else: #if it is a space thenn...
+              modified_string += space #add a space to modified string
+
+
+      modified_list.append(modified_string) #lastly, add the modified string, to the modified list (thne return it back)
+
+  return modified_list
+
+def num_5(character):#function to gather correct format for number 5
+  space = " "
+  list_5 = ['***', '*  ', '***', '  *', '***']
+
+  modified_list = []
+  for i in range(len(list_5)):
+      modified_string = ""
+      for j in list_5[i]:
+          if j == '*':
+              modified_string += character
+          else:
+              modified_string += space
+      modified_list.append(modified_string)
+
+  return modified_list
+
+def num_6(character):#function to gather correct format for number 6
+  space = " "
+  list_6 = ['***', '*  ', '***', '* *', '***'] #LIST FOR NUMBER 1
+
+  modified_list = []
+  for i in range(len(list_6)): #essentially, this is an algorithm to replace the astrics w the wanted character
+      modified_string = ""
+      for j in list_6[i]: #for every character 
+          if j == '*': #if it is an astric then...
+              modified_string += character #add the wanted character to modified string
+          else: #if it is a space thenn...
+              modified_string += space #add a space to modified string
+
+
+      modified_list.append(modified_string) #lastly, add the modified string, to the modified list (thne return it back)
+
+  return modified_list
+
+def num_7(character):#function to gather correct format for number 7
+  space = " "
+  list_7 = ['***', '  *', '  *', '  *', '  *'] #LIST FOR NUMBER 1
+
+  modified_list = []
+  for i in range(len(list_7)): #essentially, this is an algorithm to replace the astrics w the wanted character
+      modified_string = ""
+      for j in list_7[i]: #for every character 
+          if j == '*': #if it is an astric then...
+              modified_string += character #add the wanted character to modified string
+          else: #if it is a space thenn...
+              modified_string += space #add a space to modified string
+
+
+      modified_list.append(modified_string) #lastly, add the modified string, to the modified list (thne return it back)
+
+  return modified_list
+
+def num_8(character):#function to gather correct format for number 8
+  space = " "
+  list_8 = ['***', '* *', '***', '* *', '***'] #LIST FOR NUMBER 1
+
+  modified_list = []
+  for i in range(len(list_8)): #essentially, this is an algorithm to replace the astrics w the wanted character
+      modified_string = ""
+      for j in list_8[i]: #for every character 
+          if j == '*': #if it is an astric then...
+              modified_string += character #add the wanted character to modified string
+          else: #if it is a space thenn...
+              modified_string += space #add a space to modified string
+
+
+      modified_list.append(modified_string) #lastly, add the modified string, to the modified list (thne return it back)
+
+  return modified_list
+
+def num_9(character):#function to gather correct format for number 9
+  space = " "
+  list_9 = ['***', '* *', '***', '  *', '***']
+
+  modified_list = []
+  for i in range(len(list_9)):
+      modified_string = ""
+      for j in list_9[i]:
+          if j == '*':
+              modified_string += character
+          else:
+              modified_string += space
+      modified_list.append(modified_string)
+
+  return modified_list
+
+
+
+def numbers(): #gather correct numbers and characters for clock display
+
+    if i == ':':
+        colon = [' ', ':', ' ', ':', ' '] #colon list
+        output.append(colon)
+        output.append(single)
+    elif i == '0':
+        char = '0'
+        final_0 = num_0(char)
+        output.append(final_0)
+        output.append(single)
+    elif i == '1':
+
+        char = '1'
+        final_1 = num_1(char)
+        output.append(final_1)
+        output.append(single)
+
+    elif i == '2':
+        char = '2' #character that matches the number
+        final_2 = num_2(char)
+        output.append(final_2)  # puts the modified number into output
+        output.append(single)
+    elif i == '3':
+        char = '3'
+        final_3 = num_3(char)
+        output.append(final_3)
+        output.append(single)
+    elif i == '4':
+        char = '4'
+        final_4 = num_4(char)
+        output.append(final_4)
+        output.append(single)
+    elif i == '5':
+        char = '5'
+        final_5 = num_5(char)
+        output.append(final_5)
+        output.append(single)
+    elif i == '6':
+        char = '6'
+        final_6 = num_6(char)
+        output.append(final_6)  
+        output.append(single)
+    elif i == '7':
+        char = '7'
+        final_7 = num_7(char)
+        output.append(final_7)
+        output.append(single)
+    elif i == '8':
+        char = '8'
+        final_8 = num_8(char)
+        output.append(final_8)
+        output.append(single)
+    elif i == '9':
+        char = '9'
+        final_9 = num_9(char)
+        output.append(final_9)
+        output.append(single)
+
+def actual_character(char): # puts the modified number into output
+
+    if i == ':':
+        output.append(colon)
+        output.append(single)
+    elif i == '0':
+        final_0 = num_0(char)
+        output.append(final_0)
+        output.append(single)
+    elif i == '1':
+        final_1 = num_1(char)
+        output.append(final_1)
+        output.append(single)
+    elif i == '2':
+        final_2 = num_2(char)
+        output.append(final_2) 
+        output.append(single)
+    elif i == '3':
+        final_3 = num_3(char)
+        output.append(final_3)
+        output.append(single)
+    elif i == '4':
+        final_4 = num_4(char)
+        output.append(final_4)
+        output.append(single)
+    elif i == '5':
+        final_5 = num_5(char)
+        output.append(final_5)
+        output.append(single)
+    elif i == '6':
+        final_6 = num_6(char)
+        output.append(final_6)   
+        output.append(single)
+    elif i == '7':
+        final_7 = num_7(char)
+        output.append(final_7)
+        output.append(single)
+    elif i == '8':
+        final_8 = num_8(char)
+        output.append(final_8)
+        output.append(single)
+    elif i == '9':
+        final_9 = num_9(char)
+        output.append(final_9)
+        output.append(single)
+
+
+
+
+input_user = input('Enter the time in Military Format (hh:mm): ') # gather input
+clock_type = input('Choose the clock type (12 or 24): ') #gather clock type
+
+
+colon = [' ', ':', ' ', ':', ' '] #colon list
+AM = [' A  M   M','A A MM MM','AAA M M M','A A M   M','A A M   M'] #AM list
+PM = ['PPP M   M','P P MM MM','PPP M M M','P   M   M','P   M   M'] #PM list
+single = [' ', ' ', ' ', ' ', ' ']
+
+output = []  # list of all the numbers and colons and AM and PM if needed. 
+#this is what is being printed
+
+
+
+
+if clock_type == '24': #MILITARY TIME
+
+    input_char = input('Enter your preferred character: ')
+
+
+    while input_char not in 'abcdeghkmnopqrsuvwxyz@$&*=':
+        input_char = input('Character not permitted! Try again: ')
+
+
+    if input_char == '': #if user DID NOT input a character
+
+        for i in input_user: #for each character in the user input. goes to numbers def function
+            numbers()
+
+    else: #if user DID enter a character
+
+
+        for i in input_user:
+            char = input_char
+            actual_character(char)
+
+
+elif clock_type == '12': #STANDARD TIME
+
+
+    int_list = [] 
+
+    for i in input_user: #changing input user from a string to a list of integers
+        num = i
+        int_list.append(num) #append number in int_list
+
+
+    if (len(input_user) == 5): #11:51 is length 5. we would need to chec if the first two digits are 
+                              # is greater than 12. because we would need to substract 24 - (first two digits)
+                              #to change it to standard time. if the length was 4 then all we would need to do
+                              #is print the numbers in the input. ex: 5:15. we wouldnt need to change it to 
+                              #standard time bc it alr is. 
+
+        first_two_digits = int_list[:2]
+        check_num = int(''.join(first_two_digits))
+
+        if check_num > 12: #if first two digits are greater than 12 then we need to substract from 24
+
+            new_num = str(check_num - 12)
+            final_num = list(new_num + input_user[2:])
+
+        else: #if not greater than 12 we can simply print the numbers as it ex: 11:44. alr in standard time
+
+
+            final_num = str(input_user) 
+
+    else: 
+
+        first_digit = int_list[0]
+        if first_digit == '0':
+            new_num = '12'
+            final_num = list(new_num + input_user[1:])
+        else:
+            final_num = list(input_user) #if length is 4 print numbers as is.
+
+
+    input_char = input('Enter your preferred character in (abcdeghkmnopqrsuvwxyz@$&*=): ') #gather charcter input
+
+    while input_char not in 'abcdeghkmnopqrsuvwxyz@$&*=':
+        input_char = input('Character not permitted! Try again: ')
+
+    
+    if input_char == '': #if user DID NOT input a character
+
+        for i in final_num: #for each character in the user input. goes to numbers def function
+            numbers()
+
+
+    else: #if user DID enter a character
+
+
+        for i in final_num:
+            char = input_char
+            actual_character(char)
+
+
+#THE ACTUAL PRINTING METHOD BELOW: 
+output.pop()
+
+print('\n',end='')
+if clock_type == '24': #military time does NOT need AM or PM
+    
+    for row in range(5):
+      for item in output:
+          print(item[row], end='')
+      print()
+
+else: #standard time does need AM or PM
+
+    if len(input_user) == 5: 
+        if check_num >= 12: #noon or after add PM
+            output.append(single)
+            output.append(PM)
+            for row in range(5):
+              for item in output:
+                  print(item[row], end='')
+              print()
+        else:
+            if check_num < 12: #if before noon add AM
+                output.append(single)
+                output.append(AM)
+                for row in range(5):
+                  for item in output:
+                      print(item[row], end='')
+                  print()
+    else: #if input is length 4 ex: 1:55. then it will automatically be AM.
+        output.append(single)
+        output.append(AM)
+        for row in range(5):
+          for item in output:
+              print(item[row], end='')
+          print()
